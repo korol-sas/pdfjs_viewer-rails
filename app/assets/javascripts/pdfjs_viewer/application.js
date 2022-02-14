@@ -12,3 +12,9 @@
 //
 //= require pdfjs_viewer/pdfjs/pdf
 //= require pdfjs_viewer/viewer
+
+// Loaded via <script> tag, create shortcut to access PDF.js exports.
+var pdfjsLib = window['pdfjs-dist/build/pdf'];
+
+// The workerSrc property shall be specified.
+pdfjsLib.GlobalWorkerOptions.workerSrc = '/pdfjs/web/pdf.worker.js';
