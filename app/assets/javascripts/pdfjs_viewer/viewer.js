@@ -215,7 +215,7 @@ var defaultOptions = {
     kind: OptionKind.API
   },
   standardFontDataUrl: {
-    value: "../web/standard_fonts/",
+    value: "../pdfjs/web/standard_fonts/",
     kind: OptionKind.API
   },
   verbosity: {
@@ -227,7 +227,7 @@ var defaultOptions = {
     kind: OptionKind.WORKER
   },
   workerSrc: {
-    value: "../build/pdf.worker.js",
+    value: "../pdfjs/web/pdf.worker.js",
     kind: OptionKind.WORKER
   }
 };
@@ -241,7 +241,7 @@ var defaultOptions = {
     kind: OptionKind.VIEWER
   };
   defaultOptions.sandboxBundleSrc = {
-    value: "../build/pdf.sandbox.js",
+    value: "../pdfjs/web/pdf.sandbox.js",
     kind: OptionKind.VIEWER
   };
   defaultOptions.renderer.kind += OptionKind.PREFERENCE;
